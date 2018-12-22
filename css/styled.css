@@ -1,11 +1,15 @@
 .calculator {
     width: 250px;
     height: 350px;
-    border: 2px solid black;
-    margin: 10px 0;
+    border: 1px solid #dec75b;
+/*     margin: 100px auto 0; */
+	margin:100px 50px ;
     text-align: center;
-    background-color:darkblue;
-    border-radius: 10px;
+    background-color:#152103;
+    box-shadow: 0 0 30px grey;
+    border-radius: 8px;
+	background:url(http://pic1.win4000.com/pic/c/2f/21285b1ada_250_350.jpg);
+	background-size: cover;	
 }
 
 .calculator__form {
@@ -41,6 +45,9 @@
 }
 
 .calculator__key:hover {
-    background-color: yellow;
+    background-color: #e87411;
+	   background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     font-weight: 700;
+	  opacity:0.9;
+	  color:white;
 }

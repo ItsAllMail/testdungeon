@@ -16,6 +16,12 @@ $(document).ready(function () {
         $(this).text(current);
     });
 
+	// Garbage
+	function PutNum(val) {
+    document.getElementById("okno").value = (document.getElementById("okno").value + val)-0;
+ 
+}
+	
     // ADD NUMBERS TO INPUT
     calcButton.on('click', function () {
         calcDisplay.val( calcDisplay.val() + $(this).attr('value') );
@@ -33,7 +39,7 @@ $(document).ready(function () {
 
     // POWER BUTTON
     calcPower.on('click', function () {
-        calcDisplay.val( Math.pow( calcDisplay.val(), 3 ) );
+        calcDisplay.val( Math.pow( calcDisplay.val(), 2 ) );
     });
 
     // BACKSPACE BUTTON
